@@ -1,4 +1,4 @@
-# SARS-CoV-2 Protein-Protein Interface (PPI) Predictor
+# Protein-Protein Interface (PPI) Predictor
 
 This repository contains an end-to-end pipeline for predicting residue-level protein interfaces. The system integrates structural metrics from **AlphaFold-3**, binding energetics from **PyRosetta**, bioinformatics scores from **BIPSPI**, and evolutionary embeddings from **ESM-2**.
 
