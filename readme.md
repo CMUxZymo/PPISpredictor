@@ -39,8 +39,9 @@ Open `PPI_Final_Pipeline.ipynb` and run the cells in order:
 1.  **Index Results**: The code indexes BIPSPI results, the `output_binding_energies.csv`, and deep-scans the `/3seed_AF3` directory.
 2.  **Combine Features**: Aligns pLDDT, iPAE, Rosetta $\Delta G$, and BIPSPI scores with the ground truth labels.
 3.  **Generate Embeddings**: Loads the ESM-2 650M model to generate residue embeddings, then reduces them to 32 dimensions via PCA.
-4.  **Train Golden Ensemble**: Trains a weighted ensemble of **Random Forest** ($n\_estimators=500, max\_depth=30$) and **Hist-Gradient Boosting** ($max\_iter=300, l2\_reg=50.0$).
-5.  **Validate**: Evaluates performance on SARS-CoV-2 targets (**7CZX**, **7D0D**) and generates metrics visualizations.
+4.  **Train Ensemble**: Trains a weighted ensemble of **Random Forest** and **Hist-Gradient Boosting**.
+5.  **Error Analysis**: Identifies complexes that were easy or hard to predict. Displays a distribution of PR-AUC results.
+6.  **Validate**: Evaluates performance on SARS-CoV-2 targets (**7CZX**, **7D0D**) and generates metrics visualizations.
 
 ## Required Libraries
 Install the environment using:
