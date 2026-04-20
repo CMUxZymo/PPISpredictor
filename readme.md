@@ -2,7 +2,7 @@
 
 This repository contains an end-to-end pipeline for predicting residue-level protein interfaces. The system integrates structural metrics from **AlphaFold-3**, binding energetics from **PyRosetta**, bioinformatics scores from **BIPSPI**, and evolutionary embeddings from **ESM-2**.
 
-All data can be accessed via this link: https://zenodo.org/records/19443030?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImExMTQ4NTk3LWFjYjYtNDA2Mi1hMDk1LTIxNzVmMzlkNmZjYiIsImRhdGEiOnt9LCJyYW5kb20iOiJhYWI4NWRiZWIyNTA5YzVhMTI5MzQwMjJiMDQ5OGJhOCJ9.hLPxJL5nW5Q-OycDz5BVULCjDklY1kKES9dsKQSlNl6R150Y5r63X9QJzUDfs3DPvj4iwu1aJn8-9D5NybDo8g
+All data and code can be accessed via this link: https://zenodo.org/records/19443030?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImExMTQ4NTk3LWFjYjYtNDA2Mi1hMDk1LTIxNzVmMzlkNmZjYiIsImRhdGEiOnt9LCJyYW5kb20iOiJhYWI4NWRiZWIyNTA5YzVhMTI5MzQwMjJiMDQ5OGJhOCJ9.hLPxJL5nW5Q-OycDz5BVULCjDklY1kKES9dsKQSlNl6R150Y5r63X9QJzUDfs3DPvj4iwu1aJn8-9D5NybDo8g
 
 ## Project Structure
 
