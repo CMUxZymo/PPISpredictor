@@ -53,7 +53,7 @@ Open `PPI_Final_Pipeline.ipynb` and run the cells in order:
 Install the environment using:
 
 ```bash
-pip install biopython pandas numpy scikit-learn seaborn matplotlib tqdm transformers torch openpyxl
+pip install biopython pandas numpy scikit-learn seaborn matplotlib tqdm transformers torch openpyxl requests joblib scipy
 ```
 
 ## Feature Groups
