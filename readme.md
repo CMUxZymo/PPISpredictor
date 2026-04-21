@@ -33,7 +33,7 @@ The scripts will generate the following outputs during execution:
 ## Execution Workflow
 
 ### 1. Label Generation
-Run the labeling script first. It reads `Table_BM5.5.xlsx`, downloads the corresponding PDBs into `/experimental_pdbs`, and identifies interface residues via a 10.0Å `NeighborSearch`.
+Run the labeling script first. It reads `Table_BM5.5.xlsx`, downloads the corresponding PDBs into `/experimental_pdbs`, and identifies interface residues via a 5.0Å `NeighborSearch`.
 
 ```bash
 python ProteinPairData.py
