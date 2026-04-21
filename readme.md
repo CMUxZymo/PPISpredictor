@@ -23,10 +23,12 @@ The scripts will generate the following outputs during execution:
 
 * **`/experimental_pdbs`**: Folder created by `ProteinPairData.py` to store structures downloaded from RCSB.
 * **`MASTER_GROUND_TRUTH.csv`**: The output of the labeling script containing the binary interface labels (0 or 1).
+* **`DEBUG_REPORT.csv`**: Diagnostic log tracking chain mapping success and residue counts per complex.
 * **`FINAL_TRAINING_DATA_WITH_LABELS - Step 3.csv`**: The final integrated dataset merging all biological and structural features.
 * **`esm2_embeddings_650M - Step 2.npy`**: The NumPy matrix containing the 1280-dimensional ESM-2 embeddings.
-* **`INTERFACE_PREDICTOR_v1.joblib`**: The saved ensemble model (Golden Parameters).
-* **`feature_names.joblib`**: The saved list of feature names used during model training.
+* **`Performance_[TARGET_COMPLEX].png`**: Table visualization showing the ROC-AUC, PR-AUC, and F1-score for the target validation.
+* **`Importance_Individual_[TARGET_COMPLEX].png`**: Bar chart visualization of the top 20 individual feature predictors.
+* **`Importance_Category_[TARGET_COMPLEX].png`**: Bar chart visualization of feature importance grouped by category (AF3, ESM-2, etc.).
 
 ## Execution Workflow
 
